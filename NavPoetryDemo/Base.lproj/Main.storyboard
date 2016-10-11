@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RCs-SV-aYJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="f0O-ke-X21">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -9,7 +9,7 @@
         <!--唐  詩  三  百  首-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -68,6 +68,7 @@
         <scene sceneID="GRd-kg-Aa7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RCs-SV-aYJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" badgeValue="唐詩" systemItem="bookmarks" id="bBZ-8k-cns"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Am-ac-hKD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -85,7 +86,7 @@
         <!--作   品   集-->
         <scene sceneID="Vfm-4N-qau">
             <objects>
-                <viewController id="sYX-Rv-ibL" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sYX-Rv-ibL" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YUR-uA-bec"/>
                         <viewControllerLayoutGuide type="bottom" id="lPF-d1-quf"/>
@@ -140,7 +141,7 @@
             </objects>
             <point key="canvasLocation" x="1472.4637681159422" y="790.76086956521749"/>
         </scene>
-        <!--雜　　　詩-->
+        <!--黃  鶴  樓  送  孟  浩  然  之  廣  陵-->
         <scene sceneID="eDf-Xm-OAO">
             <objects>
                 <viewController id="mqj-h6-Pcm" sceneMemberID="viewController">
@@ -169,13 +170,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="雜　　　詩" id="PSL-pU-JDJ"/>
+                    <navigationItem key="navigationItem" title="黃  鶴  樓  送  孟  浩  然  之  廣  陵" id="PSL-pU-JDJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yVt-Ok-Mx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243.4782608695655" y="1160.8695652173915"/>
         </scene>
-        <!--送　　別-->
+        <!--夜    思-->
         <scene sceneID="00i-RG-NgE">
             <objects>
                 <viewController id="d5v-LB-VrD" sceneMemberID="viewController">
@@ -205,16 +206,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="送　　別" id="SqB-u2-4Yb"/>
+                    <navigationItem key="navigationItem" title="夜    思" id="SqB-u2-4Yb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yoY-sH-Zli" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243.4782608695655" y="445.10869565217394"/>
         </scene>
-        <!--相　　　思-->
+        <!--下  江  陵-->
         <scene sceneID="jWb-dP-z0Y">
             <objects>
-                <viewController id="mZA-zV-4qc" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mZA-zV-4qc" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OXu-bk-ud9"/>
                         <viewControllerLayoutGuide type="bottom" id="EwW-6c-e2a"/>
@@ -239,7 +240,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="相　　　思" id="d5Z-vt-9A3"/>
+                    <navigationItem key="navigationItem" title="下  江  陵" id="d5Z-vt-9A3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7F-xy-w2c" sceneMemberID="firstResponder"/>
             </objects>
@@ -248,7 +249,7 @@
         <!--作   品   集-->
         <scene sceneID="14d-nm-tMN">
             <objects>
-                <viewController id="gQZ-sK-fLp" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gQZ-sK-fLp" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vdz-Nj-bR9"/>
                         <viewControllerLayoutGuide type="bottom" id="ojF-xI-sgT"/>
@@ -383,7 +384,7 @@
         <!--相　　　思-->
         <scene sceneID="YiW-C2-y75">
             <objects>
-                <viewController id="flg-pe-CYi" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="flg-pe-CYi" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1YR-CW-EVp"/>
                         <viewControllerLayoutGuide type="bottom" id="2Yr-Aa-wu9"/>
@@ -415,10 +416,57 @@
             </objects>
             <point key="canvasLocation" x="3006" y="-631"/>
         </scene>
+        <!--宋   詞-->
+        <scene sceneID="rOT-Uu-Gr5">
+            <objects>
+                <viewController id="C4w-ce-GSt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N6s-wi-YjN"/>
+                        <viewControllerLayoutGuide type="bottom" id="HLP-nN-ftN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1N5-h9-hlh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="KC8-DK-H00">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhZ-Vf-3tR">
+                                <frame key="frameInset" minX="134" minY="395" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="歐 陽 修">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Xpn-FD-cTy" kind="show" id="Ygu-gF-qYq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMp-h4-2d7">
+                                <frame key="frameInset" minX="134" minY="279" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="范 仲 淹">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QkV-ih-5VX" kind="show" id="qkx-IM-hZR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="宋   詞" id="Trr-Nm-mdS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADa-39-ufg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611.59420289855075" y="3187.5000000000005"/>
+        </scene>
         <!--作   品   集-->
         <scene sceneID="rNS-PG-MIe">
             <objects>
-                <viewController id="IIB-4x-Pyh" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IIB-4x-Pyh" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yrn-CF-H6p"/>
                         <viewControllerLayoutGuide type="bottom" id="bWm-ML-kk8"/>
@@ -466,7 +514,7 @@
             </objects>
             <point key="canvasLocation" x="1472" y="2199"/>
         </scene>
-        <!--送　　別-->
+        <!--登  鸛  鵲  樓-->
         <scene sceneID="Pyu-oh-OOW">
             <objects>
                 <viewController id="erF-gS-9sF" sceneMemberID="viewController">
@@ -494,16 +542,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="送　　別" id="Q0K-nj-LJk"/>
+                    <navigationItem key="navigationItem" title="登  鸛  鵲  樓" id="Q0K-nj-LJk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCm-f9-QUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2243" y="1854"/>
         </scene>
-        <!--相　　　思-->
+        <!--出   塞-->
         <scene sceneID="gA3-5o-hi6">
             <objects>
-                <viewController id="mCb-c6-Etx" customClass="ViewController" customModule="NavPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mCb-c6-Etx" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yjb-hB-b8u"/>
                         <viewControllerLayoutGuide type="bottom" id="5Nh-pH-Bqe"/>
@@ -529,14 +577,298 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="相　　　思" id="oVy-Mk-ha3"/>
+                    <navigationItem key="navigationItem" title="出   塞" id="oVy-Mk-ha3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jyQ-5i-9dD" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2995.6521739130435" y="2198.6413043478265"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SHc-yH-52f">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JxN-iT-zlz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" badgeValue="宋詞" systemItem="bookmarks" id="CU1-A3-6qu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x4B-bD-H1o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C4w-ce-GSt" kind="relationship" relationship="rootViewController" id="46H-u4-0hU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a6e-IL-ogU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="3188"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pUP-IC-zR0">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="f0O-ke-X21" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="KTv-QX-Y42">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JxN-iT-zlz" kind="relationship" relationship="viewControllers" id="hkl-QE-Upu"/>
+                        <segue destination="RCs-SV-aYJ" kind="relationship" relationship="viewControllers" id="crW-bZ-pJg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8yN-GU-na2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1812" y="1854"/>
+        </scene>
+        <!--作   品   集-->
+        <scene sceneID="Z6O-g7-1ZX">
+            <objects>
+                <viewController id="QkV-ih-5VX" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t20-h9-bIY"/>
+                        <viewControllerLayoutGuide type="bottom" id="fP6-wG-xbh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mC5-Qn-0Ph">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="Cv8-DM-emn">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXd-mt-3Id">
+                                <frame key="frameInset" minY="215" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="蘇 幕 遮 ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Gmd-uu-v0n" kind="show" id="c87-fu-rfS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-qo-qoy">
+                                <frame key="frameInset" minY="109" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title=" 漁 家 傲 ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g4l-D2-JWJ" kind="show" id="6WF-cF-7Od"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="作   品   集" id="bVR-qT-1cW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9b7-Ku-dOf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1471" y="3188"/>
+        </scene>
+        <!-- 漁 家 傲 -->
+        <scene sceneID="utM-Ci-1m1">
+            <objects>
+                <viewController id="g4l-D2-JWJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R6Y-EV-PB0"/>
+                        <viewControllerLayoutGuide type="bottom" id="EZo-Yc-V2g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rsz-yS-VIk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="cWJ-wu-WfX">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGn-5P-s3Q">
+                                <frame key="frameInset" minY="128" width="414" height="481"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">塞 下 秋 來 風 景 異 。	　 衡 陽 雁 去 無 留 意 。 
+四 面 邊 聲 連 角 起 。	　 千 嶂 裏 。 
+長 煙 落 日 孤 城 閉 。	　 ○ 濁 酒 一 杯 家 萬 里 。 
+燕 然 未 勒 歸 無 計 。	　 羌 管 悠 悠 霜 滿 地 。 
+人 不 寐 。	　 將 軍 白 髮 征 夫 淚 。
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title=" 漁 家 傲 " id="fy0-yg-L2l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBg-Rw-9Dz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2250.7246376811595" y="2837.771739130435"/>
+        </scene>
+        <!--蘇 幕 遮 -->
+        <scene sceneID="0mn-oL-zrf">
+            <objects>
+                <viewController id="Gmd-uu-v0n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LjX-9v-gqI"/>
+                        <viewControllerLayoutGuide type="bottom" id="KMc-Wn-xWH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UUG-8G-UvU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="Umi-tw-OCe">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="st7-go-eiP">
+                                <frame key="frameInset" minY="72" width="414" height="615"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">碧 雲 天 ，	　 黃 葉 地 。 
+秋 色 連 波 ，	　 波 上 寒 煙 翠 。 
+山 映 斜 陽 天 接 水 。	　 芳 草 無 情 ， 
+更 在 斜 陽 外 。	　 ○ 黯 鄉 魂 ， 
+追 旅 思 。	　 夜 夜 除 非 ， 
+好 夢 留 人 睡 。	　 明 月 樓 高 休 獨 倚 。 
+酒 入 愁 腸 ，	　 化 作 相 思 淚 。
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="蘇 幕 遮 " id="yn5-MM-igj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2t-4W-n3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3005.7971014492755" y="3187.5000000000005"/>
+        </scene>
+        <!--作   品   集-->
+        <scene sceneID="PWr-l4-Xlt">
+            <objects>
+                <viewController id="Xpn-FD-cTy" customClass="ViewController" customModule="TabPoetryDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GtT-ji-YPI"/>
+                        <viewControllerLayoutGuide type="bottom" id="y6h-xF-yhv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qCP-2B-h8L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="KMT-11-zaF">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfo-Qk-PBk">
+                                <frame key="frameInset" minY="215" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="臨 江 仙 ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9eY-Vb-7lM" kind="show" id="PcG-v7-bHZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HR-4D-iGJ">
+                                <frame key="frameInset" minY="109" width="146" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="木 蘭 花 ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="P46-2g-wu5" kind="show" id="Fue-za-ozp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="作   品   集" id="kX5-Af-qOh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOX-of-d7d" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1459" y="4402"/>
+        </scene>
+        <!--木 蘭 花 -->
+        <scene sceneID="atq-xl-LCj">
+            <objects>
+                <viewController id="P46-2g-wu5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rwn-CG-FQZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hz8-0c-cPz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Nn-fC-Hmm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="2dk-sW-0Rt">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjx-Ty-04P">
+                                <frame key="frameInset" minY="128" width="414" height="481"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">別 後 不 知 君 遠 近 。	　 觸 目 淒 涼 多 少 悶 。 
+漸 行 漸 遠 漸 無 書 ，	　 水 闊 魚 沈 何 處 問 。 
+○ 夜 深 風 竹 敲 秋 韻 。	 萬 葉 千 聲 皆 是 恨 。 
+故 欹 單 枕 夢 中 尋 ，	　 夢 又 不 成 燈 又 燼 。
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="木 蘭 花 " id="N3k-ee-9FM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DU3-ng-Ven" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2241" y="4052"/>
+        </scene>
+        <!--臨 江 仙 -->
+        <scene sceneID="6Kp-df-hIM">
+            <objects>
+                <viewController id="9eY-Vb-7lM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zkm-Pe-Une"/>
+                        <viewControllerLayoutGuide type="bottom" id="iLl-5F-sLV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PHO-ij-RYo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="宋詞" translatesAutoresizingMaskIntoConstraints="NO" id="1cf-2e-bYN">
+                                <frame key="frameInset" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ho-NH-HKb">
+                                <frame key="frameInset" minY="128" width="414" height="481"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">柳 外 輕 雷 池 上 雨 ，	　 雨 聲 滴 碎 荷 聲 。 
+小 樓 西 角 斷 虹 明 。	　 闌 干 私 倚 處 ， 
+待 得 月 華 生 。	　 ○ 燕 子 飛 來 窺 畫 棟 ， 
+玉 鉤 垂 下 簾 旌 。	　 涼 波 不 動 簟 紋 平 。 
+水 精 雙 枕 畔 ，	　 傍 有 墮 釵 橫 。 </string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="臨 江 仙 " id="c2N-2x-7Mc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5qJ-pP-DYT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996" y="4402"/>
+        </scene>
     </scenes>
     <resources>
         <image name="唐詩2" width="211" height="239"/>
+        <image name="宋詞" width="180" height="279"/>
     </resources>
 </document>

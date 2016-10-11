@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B887E1B41DAB7D3100B2DDB0"
-               BuildableName = "NavPoetryDemo.app"
-               BlueprintName = "NavPoetryDemo"
-               ReferencedContainer = "container:NavPoetryDemo.xcodeproj">
+               BuildableName = "TabPoetryDemo.app"
+               BlueprintName = "TabPoetryDemo"
+               ReferencedContainer = "container:TabPoetryDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B887E1B41DAB7D3100B2DDB0"
-            BuildableName = "NavPoetryDemo.app"
-            BlueprintName = "NavPoetryDemo"
-            ReferencedContainer = "container:NavPoetryDemo.xcodeproj">
+            BuildableName = "TabPoetryDemo.app"
+            BlueprintName = "TabPoetryDemo"
+            ReferencedContainer = "container:TabPoetryDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B887E1B41DAB7D3100B2DDB0"
-            BuildableName = "NavPoetryDemo.app"
-            BlueprintName = "NavPoetryDemo"
-            ReferencedContainer = "container:NavPoetryDemo.xcodeproj">
+            BuildableName = "TabPoetryDemo.app"
+            BlueprintName = "TabPoetryDemo"
+            ReferencedContainer = "container:TabPoetryDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B887E1B41DAB7D3100B2DDB0"
-            BuildableName = "NavPoetryDemo.app"
-            BlueprintName = "NavPoetryDemo"
-            ReferencedContainer = "container:NavPoetryDemo.xcodeproj">
+            BuildableName = "TabPoetryDemo.app"
+            BlueprintName = "TabPoetryDemo"
+            ReferencedContainer = "container:TabPoetryDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B887E1B51DAB7D3100B2DDB0 /* NavPoetryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavPoetryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B887E1B51DAB7D3100B2DDB0 /* TabPoetryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabPoetryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B887E1B81DAB7D3100B2DDB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B887E1BA1DAB7D3100B2DDB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B887E1BD1DAB7D3100B2DDB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		B887E1AC1DAB7D3100B2DDB0 = {
 			isa = PBXGroup;
 			children = (
-				B887E1B71DAB7D3100B2DDB0 /* NavPoetryDemo */,
+				B887E1B71DAB7D3100B2DDB0 /* TabPoetryDemo */,
 				B887E1B61DAB7D3100B2DDB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		B887E1B61DAB7D3100B2DDB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B887E1B51DAB7D3100B2DDB0 /* NavPoetryDemo.app */,
+				B887E1B51DAB7D3100B2DDB0 /* TabPoetryDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B887E1B71DAB7D3100B2DDB0 /* NavPoetryDemo */ = {
+		B887E1B71DAB7D3100B2DDB0 /* TabPoetryDemo */ = {
 			isa = PBXGroup;
 			children = (
 				B887E1B81DAB7D3100B2DDB0 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				B887E1C11DAB7D3100B2DDB0 /* LaunchScreen.storyboard */,
 				B887E1C41DAB7D3100B2DDB0 /* Info.plist */,
 			);
+			name = TabPoetryDemo;
 			path = NavPoetryDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B887E1B41DAB7D3100B2DDB0 /* NavPoetryDemo */ = {
+		B887E1B41DAB7D3100B2DDB0 /* TabPoetryDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B887E1C71DAB7D3100B2DDB0 /* Build configuration list for PBXNativeTarget "NavPoetryDemo" */;
+			buildConfigurationList = B887E1C71DAB7D3100B2DDB0 /* Build configuration list for PBXNativeTarget "TabPoetryDemo" */;
 			buildPhases = (
 				B887E1B11DAB7D3100B2DDB0 /* Sources */,
 				B887E1B21DAB7D3100B2DDB0 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = NavPoetryDemo;
+			name = TabPoetryDemo;
 			productName = NavPoetryDemo;
-			productReference = B887E1B51DAB7D3100B2DDB0 /* NavPoetryDemo.app */;
+			productReference = B887E1B51DAB7D3100B2DDB0 /* TabPoetryDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B887E1B01DAB7D3100B2DDB0 /* Build configuration list for PBXProject "NavPoetryDemo" */;
+			buildConfigurationList = B887E1B01DAB7D3100B2DDB0 /* Build configuration list for PBXProject "TabPoetryDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B887E1B41DAB7D3100B2DDB0 /* NavPoetryDemo */,
+				B887E1B41DAB7D3100B2DDB0 /* TabPoetryDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B887E1B01DAB7D3100B2DDB0 /* Build configuration list for PBXProject "NavPoetryDemo" */ = {
+		B887E1B01DAB7D3100B2DDB0 /* Build configuration list for PBXProject "TabPoetryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B887E1C51DAB7D3100B2DDB0 /* Debug */,
@@ -293,13 +294,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B887E1C71DAB7D3100B2DDB0 /* Build configuration list for PBXNativeTarget "NavPoetryDemo" */ = {
+		B887E1C71DAB7D3100B2DDB0 /* Build configuration list for PBXNativeTarget "TabPoetryDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B887E1C81DAB7D3100B2DDB0 /* Debug */,
 				B887E1C91DAB7D3100B2DDB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
